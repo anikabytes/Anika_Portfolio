@@ -1,10 +1,10 @@
-import Main from './components/Main'
+import ComponentController from './components/ComponentController'
 
 const App = () => {
   return (
 
     <>
-      <Main/>
+      <ComponentController/>
     </>
   )
 }
