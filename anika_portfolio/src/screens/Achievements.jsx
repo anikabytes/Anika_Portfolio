@@ -26,7 +26,7 @@ const Achievements = () => {
 
 
   return (
-    <div className="bg-orange-950 m-5 md:m-20 max-w-full">
+    <div className="bg-orange-950 hover:bg-orange-800 m-5 md:m-20 max-w-full">
       <div className="grid justify-items-center m-5 md:m-10">
         <h1 className="text-3xl text-white mt-10 font-sans">ACHIEVEMENTS</h1>
       </div>

@@ -22,7 +22,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="bg-rose-800 m-20 max-w-full">
+    <div className="bg-rose-800 m-20 max-w-full hover:bg-rose-600">
       <div className="grid justify-items-center m-2">
         <h1 className="text-3xl text-white mt-10 font-sans">SKILLS</h1>
       </div>

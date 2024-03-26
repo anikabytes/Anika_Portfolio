@@ -21,7 +21,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-fuchsia-950 m-5 md:m-20 max-w-full">
+    <div className="bg-fuchsia-950 hover:bg-fuchsia-700 m-5 md:m-20 max-w-full">
       <div className="grid justify-items-center m-5 md:m-10">
         <h1 className="text-3xl text-white mt-10 font-sans">PROJECTS</h1>
       </div>
