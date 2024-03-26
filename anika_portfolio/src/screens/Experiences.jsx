@@ -50,7 +50,7 @@ const Experiences = () => {
   };
 
   return (
-    <div className="bg-indigo-800 m-5 md:m-20 max-w-full">
+    <div className="bg-cyan-950 m-5 md:m-20 max-w-full">
       <div className="grid justify-items-center m-5 md:m-10">
         <h1 className="text-3xl text-white mt-10 font-sans">EXPERIENCE</h1>
       </div>
@@ -58,9 +58,9 @@ const Experiences = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-5">
         <h2 className="text-xl text-white mt-6 mb-4 col-span-full font-semibold text-center">CURRENT JOBS</h2>
         {currentJobs.map((job, index) => (
-          <div key={index} className="w-full bg-indigo-100 rounded-xl shadow-md overflow-hidden hover:animate-pulse" onClick={() => handleBoxClick(job.link)}>
+          <div key={index} className="w-full bg-cyan-200 rounded-xl shadow-md overflow-hidden hover:animate-pulse" onClick={() => handleBoxClick(job.link)}>
             <div className="p-8 text-center">
-              <div className="uppercase tracking-wide text-lg font-semibold text-blue-500">
+              <div className="uppercase tracking-wide text-lg font-semibold text-cyan-500">
                 {job.company}
               </div>
               <div className="mt-4">
@@ -80,9 +80,9 @@ const Experiences = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-5">
         <h2 className="text-xl text-white mt-6 mb-4 col-span-full font-semibold text-center">FORMER JOBS</h2>
         {formerJobs.map((job, index) => (
-          <div key={index} className="w-full bg-indigo-100 rounded-xl shadow-md overflow-hidden hover:animate-pulse" onClick={() => handleBoxClick(job.link)}>
+          <div key={index} className="w-full bg-cyan-200 rounded-xl shadow-md overflow-hidden hover:animate-pulse" onClick={() => handleBoxClick(job.link)}>
             <div className="p-8 text-center">
-              <div className="uppercase tracking-wide text-lg font-semibold text-blue-500">
+              <div className="uppercase tracking-wide text-lg font-semibold text-cyan-500">
                 {job.company}
               </div>
               <div className="mt-4">

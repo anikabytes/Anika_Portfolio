@@ -23,11 +23,11 @@ const Navbar = () => {
                 <div className="text-white font-mono text-3xl tracking-wider flex items-center"><CgNametag/>Anika's Portfolio</div>
                     <div className="space-x-4">
                         <div className="ssm:hidden lg:block space-x-2">
-                            <a href="/skills" className="text-white hover:bg-blue-700 rounded-full px-5 py-2 text-xl">Skills</a>
-                            <a href="/experiences" className="text-white hover:bg-blue-700 rounded-full px-5 py-2 text-xl">Experiences</a>
-                            <a href="/education" className="text-white hover:bg-blue-700 rounded-full px-5 py-2 text-xl">Education</a>
-                            <a href="/achievements" className="text-white hover:bg-blue-700 rounded-full px-5 py-2 text-xl">Achievements</a>
-                            <a href="/projects" className="text-white hover:bg-blue-700 rounded-full px-5 py-2 text-xl">Projects</a> 
+                            <a href="/skills" className="text-white hover:bg-rose-400 rounded-full px-5 py-2 text-xl">Skills</a>
+                            <a href="/experiences" className="text-white hover:bg-cyan-400 rounded-full px-5 py-2 text-xl">Experiences</a>
+                            <a href="/education" className="text-white hover:bg-purple-400 rounded-full px-5 py-2 text-xl">Education</a>
+                            <a href="/achievements" className="text-white hover:bg-orange-400 rounded-full px-5 py-2 text-xl">Achievements</a>
+                            <a href="/projects" className="text-white hover:bg-fuchsia-400 rounded-full px-5 py-2 text-xl">Projects</a> 
                             
                         </div>
 
@@ -48,23 +48,23 @@ const Navbar = () => {
                     <ul>
 
                         <li>
-                            <a href="/skills" className="text-white hover:bg-blue-700 text-xl mb-2 cursor-pointer">Skills</a>
+                            <a href="/skills" className="text-white hover:bg-rose-400 text-xl mb-2 cursor-pointer">Skills</a>
                         </li>
 
                         <li>
-                            <a href="/experiences" className="text-white hover:bg-blue-700 text-xl mb-2 cursor-pointer">Experiences</a>
+                            <a href="/experiences" className="text-white hover:bg-cyan-400 text-xl mb-2 cursor-pointer">Experiences</a>
                         </li>
                         
                         <li>
-                            <a href="/education" className="text-white hover:bg-blue-700 text-xl mb-2 cursor-pointer">Education</a>
+                            <a href="/education" className="text-white hover:bg-purple-400 text-xl mb-2 cursor-pointer">Education</a>
                         </li>
                         
                         <li>
-                            <a href="/achievements" className="text-white hover:bg-blue-700 text-xl mb-2 cursor-pointer">Achievements</a>
+                            <a href="/achievements" className="text-white hover:bg-orange-400 text-xl mb-2 cursor-pointer">Achievements</a>
                         </li>
                         
                         <li>
-                            <a href="/projects" className="text-white hover:bg-blue-700 text-xl mb-2 cursor-pointer">Projects</a>
+                            <a href="/projects" className="text-white hover:bg-fuchsia-400 text-xl mb-2 cursor-pointer">Projects</a>
                         </li>
                         
                     </ul>

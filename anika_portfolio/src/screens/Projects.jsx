@@ -21,16 +21,16 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-blue-700 m-5 md:m-20 max-w-full">
+    <div className="bg-fuchsia-950 m-5 md:m-20 max-w-full">
       <div className="grid justify-items-center m-5 md:m-10">
         <h1 className="text-3xl text-white mt-10 font-sans">PROJECTS</h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 p-5">
         {projects.map((project, index) => (
-          <div key={index} className="w-full bg-blue-100 rounded-xl shadow-md overflow-hidden hover:animate-pulse cursor-pointer" onClick={() => handleBoxClick(project.link)}>
+          <div key={index} className="w-full bg-fuchsia-200 rounded-xl shadow-md overflow-hidden hover:animate-pulse cursor-pointer" onClick={() => handleBoxClick(project.link)}>
             <div className="p-8 text-center">
-              <div className="uppercase tracking-wide text-lg font-semibold text-blue-500">
+              <div className="uppercase tracking-wide text-lg font-semibold text-fuchsia-500">
                 <a href={project.link}>{project.title}</a>
               </div>
             </div>

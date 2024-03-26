@@ -18,7 +18,7 @@ const App = () => {
 
     <div>
 
-      <div className="bg-blue-800">
+      <div className="bg-slate-900">
         <Navbar />
         <MyProfile />
       
